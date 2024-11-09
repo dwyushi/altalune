@@ -664,7 +664,7 @@ class _SignUpPageState extends State<_SignUpPage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       const Text(
-                        "Don't have an account?",
+                        "Already have an account?",
                         style: TextStyle(
                             fontFamily: 'Roboto',
                             fontSize: 12,
@@ -675,7 +675,7 @@ class _SignUpPageState extends State<_SignUpPage> {
                           Navigator.pushNamed(context, '/login');
                         },
                         child: const Text(
-                          'Sign Up',
+                          'Log In',
                           style: TextStyle(
                             fontFamily: 'Roboto',
                             fontSize: 12,
@@ -733,6 +733,13 @@ class _SignUpPageState extends State<_SignUpPage> {
           focusedBorder: const UnderlineInputBorder(
             borderSide: BorderSide(color: Color(0xFF1F1B73)),
           ),
+          errorStyle: const TextStyle(
+            fontSize: 12, 
+            height: 0.6, 
+            color: Color.fromARGB(255, 158, 12, 2),
+          ),
+          errorMaxLines: 1, // Limits the error message 
+          contentPadding: const EdgeInsets.symmetric(vertical: 2),
         ),
       ),
     );
