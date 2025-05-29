@@ -1,6 +1,6 @@
 # Altalune 🌙
 <p align="center">
-  <img src="assets/imgs/altalune-by-dwyu_logo.png" alt="XOGame Logo" width="200"/>
+  <img src="assets/imgs/altalune-by-dwyu_logo.png" alt="XOGame Logo" width="500"/>
 </p>
 
 **Altalune** is a modern and elegant Flutter app featuring beautiful and responsive **login and signup screens**. Designed with simplicity and usability in mind, it serves as a great starting point or reference for authentication UIs in Flutter-based mobile apps.
